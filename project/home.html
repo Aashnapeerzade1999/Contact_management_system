@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PROJECT</title>
+</head>
+<body>
+    <main class="main_class" id="main_id">
+        <div class="first_class" id="first_id">
+            <input type="text" name="name">
+            <button>ADD</button>
+        </div>
+    </main>
+</body>
+</html>
+<?php echo "request method:-"; print_r($_request); ?>
+<br> -->
+<form method= "request">
+    USERNAME:
+    <input type=text name="user">
+    <br>
+    <br>
+    PASSWORD:
+    <input type=password name=pws>
+    <br>
+    <br>
+    <button>submit</button>
+    <h2>output</h2><b><u><i>
+<?= "USERNAME:"."$_REQUEST[user]";?>  
+<br>
+<?= "PASSWORD:"." $_REQUEST[pws]";?>
+<br>
+<hr><hr></u></i></b>
+

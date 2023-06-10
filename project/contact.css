@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 5em;
+    color: antiquewhite;
+
+}
+body{
+    background: linear-gradient(to right,#00093c, #2d0b00);
+    
+}
+.add{
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+.home{
+    background-color: gray;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.edit{
+    background-color: aqua;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.delete{
+    background-color: red;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+.display{
+    font-size: 5em;
+    color: aliceblue;
+}
